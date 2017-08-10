@@ -1,0 +1,183 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+#box-wrapper{
+   background:  url('../../images/cinema.jpg');
+   background-size: 100%;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   min-height: 640px;
+}
+
+#box-wrapper h3{
+
+   text-align: center;
+   color: #333;
+   border: 5px solid #333;
+   border-radius: 10px;
+   padding: 10px;
+   font-family: "BalooChettan",cursive;
+   font-weight: bold;
+   background: #E9D460;
+}
+
+.button{
+   position: absolute;
+top: 110%;
+left:23%;
+
+   border-radius: 9px;
+   font-family: 'Oswald',sans-serif;
+   color: #fff;
+  
+   padding: 5px 10px;
+   border: solid #fff 3px;
+   text-transform: uppercase;
+   text-decoration: none;
+   transform: translate(0%,-10%);
+   display: inline;
+   /*padding-top: 100px;*/
+}
+.button:hover {
+   color: black;
+   border: solid; black 3px;
+}
+
+
+.picLeft{
+   float: left;
+   margin-right:  20px;
+}
+
+.picRight{
+   float: right;
+   margin-left:   20px;
+
+}
+.alu{
+ margin-top: 50px;
+}
+
+.col-12 h2{
+   color: white;
+}
+
+.well .lead a{
+   color: white;
+}
+
+.well .lead p{
+   color: black;
+}
+.navbar{
+ color: black;
+   background-color: #E9D460;
+  
+}
+
+.navbar a:hover,a:active{
+   background-color: #FDE3A7; 
+}
+
+
+
+#searchInput{
+   width: 200px;
+}
+
+#myCarousel {
+  max-height: 400px;
+ margin-top: 100px;
+
+}
+
+#bigCallOut .col-12 .well{
+   margin-top: 50px;
+   background-color: #F5D76E;
+}
+
+
+
+
+.panel img{
+   width: 100%;
+}
+
+
+.btn{
+      background-color: #2ECC71;
+}
+
+
+footer{
+   background:#E9D460;
+   color: black;
+   font-size: 11px;
+   padding: 20px;
+}
+ ul.unstyled{
+   list-style: none;
+   padding: 0;
+ }
+
+
+
+
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
